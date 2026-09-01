@@ -869,11 +869,14 @@
       return;
     }
  
-    if (OWNER_WEBHOOK_URL.includes("https://discord.com/api/webhooks/1544452861168193666/YWCG7vKu7LKEmNbIuzYTm1V104qkQMiVH5pIEHUPE1NIIQNS0LJhB6YK0oNRytSpufZO")){
+    if (OWNER_WEBHOOK_URL.includes("")){
       status.textContent = "Owner setup incomplete: webhook URL not configured yet.";
       status.className = "modal-status err";
+       else 
+           status.textContent = "Order is in process. ";
       return;
     }
+    
  
     status.textContent = "Sending...";
     status.className = "modal-status";
