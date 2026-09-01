@@ -6,7 +6,7 @@
 <title>El_Familia — Blox Fruits Perms & Gamepasses</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap');
-
+ 
   :root{
     --navy:#0B1D2E;
     --navy-deep:#071522;
@@ -18,7 +18,7 @@
     --paper-dim:#C9CBC4;
     --line: rgba(244,241,232,0.14);
   }
-
+ 
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
   body{
@@ -33,16 +33,16 @@
     line-height:1.05;
     letter-spacing:-0.01em;
   }
-
+ 
   a{color:inherit; text-decoration:none;}
   img{max-width:100%; display:block;}
-
+ 
   .wrap{
     max-width:1180px;
     margin:0 auto;
     padding:0 28px;
   }
-
+ 
   /* ---------- background wave motif ---------- */
   .wave-bg{
     position:fixed;
@@ -53,7 +53,7 @@
       radial-gradient(circle at 88% 78%, rgba(255,107,74,0.10), transparent 45%),
       var(--navy);
   }
-
+ 
   /* ---------- header ---------- */
   header{
     position:sticky; top:0; z-index:50;
@@ -90,7 +90,7 @@
   }
   .mobile-hide{display:flex;}
   @media (max-width:760px){ .mobile-hide{display:none;} }
-
+ 
   /* ---------- hero ---------- */
   .hero{
     padding:96px 0 80px;
@@ -103,7 +103,7 @@
     align-items:center;
   }
   @media (max-width:900px){ .hero-grid{grid-template-columns:1fr; gap:40px;} }
-
+ 
   .kicker{
     color:var(--lime);
     font-weight:700;
@@ -132,13 +132,13 @@
   }
   .btn-primary{ background:var(--lime); color:var(--navy-deep); }
   .btn-ghost{ border-color:var(--line); color:var(--paper); }
-
+ 
   .stat-row{
     display:flex; gap:36px; flex-wrap:wrap;
   }
   .stat b{ font-family:'Archivo Black'; font-size:1.7rem; display:block; }
   .stat span{ color:var(--paper-dim); font-size:0.88rem; }
-
+ 
   .hero-card{
     background:linear-gradient(160deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015));
     border:1px solid var(--line);
@@ -167,7 +167,7 @@
   }
   .price-tag b{ font-family:'Archivo Black'; font-size:1.9rem; color:var(--gold); }
   .price-tag span{ color:var(--paper-dim); font-size:0.85rem; }
-
+ 
   /* ---------- section shell ---------- */
   section{ padding:70px 0; border-top:1px solid var(--line); }
   .section-head{
@@ -176,7 +176,7 @@
   }
   .section-head h2{ font-size:clamp(1.7rem, 3vw, 2.3rem); max-width:20ch; }
   .section-head p{ color:var(--paper-dim); max-width:38ch; font-size:0.95rem; }
-
+ 
   /* ---------- fruit catalog: horizontal scroll ---------- */
   .scroll-row{
     display:flex; gap:20px; overflow-x:auto; padding-bottom:14px;
@@ -184,7 +184,7 @@
   }
   .scroll-row::-webkit-scrollbar{ height:6px; }
   .scroll-row::-webkit-scrollbar-thumb{ background:var(--line); border-radius:6px; }
-
+ 
   .fruit-card{
     flex:0 0 260px;
     scroll-snap-align:start;
@@ -219,7 +219,7 @@
     padding:8px 14px; border-radius:6px; font-size:0.82rem; font-weight:700;
     cursor:pointer;
   }
-
+ 
   /* ---------- gamepass grid ---------- */
   .pass-grid{
     display:grid;
@@ -228,7 +228,7 @@
   }
   @media (max-width:860px){ .pass-grid{grid-template-columns:1fr 1fr;} }
   @media (max-width:560px){ .pass-grid{grid-template-columns:1fr;} }
-
+ 
   .pass-card{
     background:rgba(255,255,255,0.03);
     border:1px solid var(--line);
@@ -245,7 +245,7 @@
   .pass-card p{ color:var(--paper-dim); font-size:0.87rem; margin-bottom:18px; min-height:56px;}
   .pass-card .foot{ display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--line); padding-top:16px;}
   .pass-card .foot b{ font-family:'Archivo Black'; font-size:1.25rem; color:var(--paper); }
-
+ 
   /* ---------- process ---------- */
   .process{
     display:grid;
@@ -265,7 +265,7 @@
   .process-step .tag{ color:var(--lime); font-weight:700; font-size:0.85rem; margin-bottom:12px; display:block;}
   .process-step h4{ font-size:1.15rem; margin-bottom:10px; }
   .process-step p{ color:var(--paper-dim); font-size:0.9rem; }
-
+ 
   .note-box{
     margin-top:28px;
     border:1px solid rgba(232,184,75,0.35);
@@ -276,7 +276,7 @@
     color:var(--paper-dim);
   }
   .note-box b{ color:var(--gold); }
-
+ 
   /* ---------- faq ---------- */
   .faq-item{
     border-bottom:1px solid var(--line);
@@ -290,7 +290,7 @@
   .faq-item summary::-webkit-details-marker{ display:none; }
   .faq-item summary .plus{ color:var(--coral); font-size:1.3rem; font-family:'Archivo Black';}
   .faq-item p{ color:var(--paper-dim); margin-top:14px; font-size:0.92rem; max-width:70ch;}
-
+ 
   /* ---------- footer / contact ---------- */
   footer{
     padding:64px 0 40px;
@@ -321,9 +321,9 @@
     font-size:0.82rem; color:var(--paper-dim);
     flex-wrap:wrap; gap:12px;
   }
-
+ 
   ::selection{ background:var(--coral); color:var(--navy-deep); }
-
+ 
   /* ---------- order modal ---------- */
   .modal-overlay{
     position:fixed; inset:0; z-index:200;
@@ -368,7 +368,7 @@
     font-size:0.9rem;
   }
   .item-recap b{ color:var(--gold); }
-
+ 
   /* ---------- trade calculator ---------- */
   .calc-grid{
     display:grid;
@@ -428,9 +428,9 @@
 </style>
 </head>
 <body>
-
+ 
 <div class="wave-bg"></div>
-
+ 
 <!-- Original icon set, designed for El_Familia — not Roblox/Blox Fruits assets -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -440,14 +440,14 @@
       <path d="M44 16l4-5 1 6z" fill="var(--coral)"/>
       <circle cx="41" cy="17" r="1.8" fill="var(--navy-deep)"/>
     </symbol>
-
+ 
     <!-- Dark: eclipsed void orb -->
     <symbol id="icon-dark" viewBox="0 0 64 64">
       <circle cx="32" cy="32" r="22" fill="#15151c"/>
       <path d="M32 10a22 22 0 1 0 0 44 18 18 0 1 1 0-44z" fill="var(--coral)" opacity="0.9"/>
       <circle cx="32" cy="32" r="22" fill="none" stroke="var(--coral)" stroke-width="1" opacity="0.3"/>
     </symbol>
-
+ 
     <!-- Ice: faceted crystal cluster -->
     <symbol id="icon-ice" viewBox="0 0 64 64">
       <path d="M32 4 42 24 32 60 22 24z" fill="var(--teal)"/>
@@ -455,13 +455,13 @@
       <path d="M54 30 40 26 46 44z" fill="var(--teal)" opacity="0.75"/>
       <path d="M32 4 42 24 32 30 22 24z" fill="#fff" opacity="0.25"/>
     </symbol>
-
+ 
     <!-- Magma: volcanic rock with flowing lava -->
     <symbol id="icon-magma" viewBox="0 0 64 64">
       <path d="M20 46c-2-10 4-16 8-22-1 5 2 7 5 5 1-4-1-7-3-10 6 2 11 9 10 17-1 3-3 5-3 5 4-1 6-4 7-7 3 6 1 13-5 17-9 6-20 3-19-5z" fill="var(--coral)"/>
       <path d="M24 44c3 3 8 4 12 2-1 3-4 5-8 5-4 0-6-3-4-7z" fill="var(--gold)"/>
     </symbol>
-
+ 
     <!-- Buddha: seated statue silhouette -->
     <symbol id="icon-buddha" viewBox="0 0 64 64">
       <circle cx="32" cy="18" r="8" fill="var(--gold)"/>
@@ -469,7 +469,7 @@
       <path d="M32 27c9 0 15 5 17 13-4 3-9 4-9 8h-16c0-4-5-5-9-8 2-8 8-13 17-13z" fill="var(--gold)"/>
       <ellipse cx="32" cy="52" rx="20" ry="5" fill="var(--gold)" opacity="0.5"/>
     </symbol>
-
+ 
     <!-- 2x Money: coin stack with x2 -->
     <symbol id="icon-money" viewBox="0 0 64 64">
       <ellipse cx="24" cy="46" rx="16" ry="6" fill="var(--gold)"/>
@@ -478,7 +478,7 @@
       <ellipse cx="24" cy="28" rx="16" ry="6" fill="var(--gold)" opacity="0.85"/>
       <text x="46" y="24" font-family="Archivo Black" font-size="20" fill="var(--teal)">2x</text>
     </symbol>
-
+ 
     <!-- 2x Mastery: rising bar chart with x2 -->
     <symbol id="icon-mastery" viewBox="0 0 64 64">
       <rect x="8" y="38" width="10" height="18" fill="var(--teal)"/>
@@ -486,20 +486,20 @@
       <rect x="36" y="14" width="10" height="42" fill="var(--teal)"/>
       <text x="46" y="14" font-family="Archivo Black" font-size="16" fill="var(--gold)">x2</text>
     </symbol>
-
+ 
     <!-- Fruit Notifier: bell -->
     <symbol id="icon-notify" viewBox="0 0 64 64">
       <path d="M32 8c8 0 14 6 14 16v10l6 10H12l6-10V24c0-10 6-16 14-16z" fill="var(--teal)"/>
       <circle cx="32" cy="52" r="5" fill="var(--teal)"/>
     </symbol>
-
+ 
     <!-- +1 Fruit Storage: bag with plus -->
     <symbol id="icon-bag" viewBox="0 0 64 64">
       <rect x="12" y="24" width="40" height="30" rx="4" fill="var(--teal)"/>
       <path d="M22 24v-4a10 10 0 0 1 20 0v4" fill="none" stroke="var(--teal)" stroke-width="4"/>
       <path d="M32 33v14M25 40h14" stroke="var(--navy-deep)" stroke-width="3.5" stroke-linecap="round"/>
     </symbol>
-
+ 
     <!-- Fast Boats: hull with speed lines -->
     <symbol id="icon-boat" viewBox="0 0 64 64">
       <path d="M8 40h48l-8 14H16z" fill="var(--teal)"/>
@@ -507,7 +507,7 @@
       <path d="M33 12l14 10-14 6z" fill="var(--gold)"/>
       <path d="M2 46h8M2 40h5" stroke="var(--teal)" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
     </symbol>
-
+ 
     <!-- Dark Blade: sword silhouette -->
     <symbol id="icon-shield" viewBox="0 0 64 64">
       <path d="M34 4l4 4-24 24-6-2-2-6 24-24z" fill="#20202a"/>
@@ -516,7 +516,7 @@
     </symbol>
   </defs>
 </svg>
-
+ 
 <header>
   <div class="wrap nav">
     <div class="brand"><span class="mark"></span> El_Familia</div>
@@ -530,9 +530,9 @@
     <a href="#contact" class="nav-cta">Order now</a>
   </div>
 </header>
-
+ 
 <main>
-
+ 
   <section class="hero" style="border-top:none;">
     <div class="wrap hero-grid">
       <div>
@@ -561,7 +561,7 @@
       </div>
     </div>
   </section>
-
+ 
   <section id="fruits">
     <div class="wrap">
       <div class="section-head">
@@ -569,7 +569,7 @@
         <p>Traded fruit-for-fruit or fruit-for-cash inside the game. Prices are benchmarked against current third-party marketplace averages, the same worldwide.</p>
       </div>
       <div class="scroll-row">
-
+ 
         <div class="fruit-card">
           <div class="rarity mythical">Mythical</div>
           <div class="fruit-thumb"><svg><use href="#icon-dragon"/></svg></div>
@@ -577,7 +577,7 @@
           <div class="desc">Top-tier mythical Zoan. High demand, limited stock.</div>
           <div class="foot"><b>$32 <small style="font-size:0.6em; color:var(--paper-dim); font-family:'Archivo';">worldwide</small></b><span class="mini-btn" onclick="openOrder('Dragon (Permanent Fruit)', '$32 USD')">Reserve</span></div>
         </div>
-
+ 
         <div class="fruit-card">
           <div class="rarity mythical">Mythical</div>
           <div class="fruit-thumb"><svg><use href="#icon-dark"/></svg></div>
@@ -585,7 +585,7 @@
           <div class="desc">Strong PvE and PvP utility, permanent trade only.</div>
           <div class="foot"><b>$6 <small style="font-size:0.6em; color:var(--paper-dim); font-family:'Archivo';">worldwide</small></b><span class="mini-btn" onclick="openOrder('Dark (Permanent Fruit)', '$6 USD')">Reserve</span></div>
         </div>
-
+ 
         <div class="fruit-card">
           <div class="rarity legendary">Legendary</div>
           <div class="fruit-thumb"><svg><use href="#icon-ice"/></svg></div>
@@ -593,7 +593,7 @@
           <div class="desc">Classic legendary pick, great for grinding raids.</div>
           <div class="foot"><b>$6 <small style="font-size:0.6em; color:var(--paper-dim); font-family:'Archivo';">worldwide</small></b><span class="mini-btn" onclick="openOrder('Ice (Permanent Fruit)', '$6 USD')">Reserve</span></div>
         </div>
-
+ 
         <div class="fruit-card">
           <div class="rarity legendary">Legendary</div>
           <div class="fruit-thumb"><svg><use href="#icon-magma"/></svg></div>
@@ -601,7 +601,7 @@
           <div class="desc">High raw damage, popular among grinders.</div>
           <div class="foot"><b>$9 <small style="font-size:0.6em; color:var(--paper-dim); font-family:'Archivo';">worldwide</small></b><span class="mini-btn" onclick="openOrder('Magma (Permanent Fruit)', '$9 USD')">Reserve</span></div>
         </div>
-
+ 
         <div class="fruit-card">
           <div class="rarity rare">Rare</div>
           <div class="fruit-thumb"><svg><use href="#icon-buddha"/></svg></div>
@@ -609,11 +609,11 @@
           <div class="desc">Solid early-game fruit, good size and mobility.</div>
           <div class="foot"><b>$11 <small style="font-size:0.6em; color:var(--paper-dim); font-family:'Archivo';">worldwide</small></b><span class="mini-btn" onclick="openOrder('Buddha (Permanent Fruit)', '$11 USD')">Reserve</span></div>
         </div>
-
+ 
       </div>
     </div>
   </section>
-
+ 
   <section id="gamepasses">
     <div class="wrap">
       <div class="section-head">
@@ -621,60 +621,60 @@
         <p>Flat USD service fee worldwide, on top of the Robux cost — you approve the purchase, we never touch your login.</p>
       </div>
       <div class="pass-grid">
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-money"/></svg></div>
           <h4>2x Money</h4>
           <p>Doubles Beli earned from every kill and quest — one of the most-bought passes for gearing up faster.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('2x Money (Gamepass)', '$3 USD flat fee')">$3</a></b></div>
         </div>
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-notify"/></svg></div>
           <h4>Fruit Notifier</h4>
           <p>Get pinged the moment a fruit spawns nearby — essential for fruit farming.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('Fruit Notifier (Gamepass)', '$15 USD flat fee')">$15</a></b></div>
         </div>
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-bag"/></svg></div>
           <h4>+1 Fruit Storage</h4>
           <p>Room for one more fruit in your inventory without needing to sell early.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('+1 Fruit Storage (Gamepass)', '$3 USD flat fee')">$3</a></b></div>
         </div>
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-boat"/></svg></div>
           <h4>Fast Boats</h4>
           <p>Speeds up sailing between islands — saves real time on every run.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('Fast Boats (Gamepass)', '$3 USD flat fee')">$3</a></b></div>
         </div>
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-mastery"/></svg></div>
           <h4>2x Mastery</h4>
           <p>Doubles mastery gain, so your fruits and swords level up in half the time.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('2x Mastery (Gamepass)', '$9 USD flat fee')">$9</a></b></div>
         </div>
-
+ 
         <div class="pass-card">
           <div class="icon"><svg><use href="#icon-shield"/></svg></div>
           <h4>Dark Blade</h4>
           <p>Instantly grants the Dark Blade sword — one of the strongest early mythical swords in the game.</p>
           <div class="foot"><span>flat fee, worldwide</span><b><a href="#" style="color:var(--paper);" onclick="event.preventDefault(); openOrder('Dark Blade (Gamepass)', '$14 USD flat fee')">$14</a></b></div>
         </div>
-
+ 
       </div>
     </div>
   </section>
-
+ 
   <section id="calculator">
     <div class="wrap">
       <div class="section-head">
         <h2>Trade calculator</h2>
         <p>All 41 permanent fruits and every gamepass in the game, priced from current marketplace averages. Add items to both sides to see who's winning the trade.</p>
       </div>
-
+ 
       <div class="calc-grid">
         <div class="calc-side">
           <h4>You give</h4>
@@ -685,9 +685,9 @@
           <div class="calc-list" id="calcListA"></div>
           <div class="calc-total">$<span id="calcTotalA">0</span><span>&nbsp;total value</span></div>
         </div>
-
+ 
         <div class="calc-vs">VS</div>
-
+ 
         <div class="calc-side">
           <h4>You get</h4>
           <div class="calc-add-row">
@@ -698,7 +698,7 @@
           <div class="calc-total">$<span id="calcTotalB">0</span><span>&nbsp;total value</span></div>
         </div>
       </div>
-
+ 
       <div class="calc-verdict fair" id="calcVerdict">
         <div class="verdict-title" id="calcVerdictTitle">Add items to both sides</div>
         <p id="calcVerdictBody">Values update live as you build each side of the trade.</p>
@@ -706,7 +706,7 @@
       <p class="calc-note">Values are reference midpoints from current third-party marketplace listings, not official Roblox prices — actual offers vary by demand and timing.</p>
     </div>
   </section>
-
+ 
   <section id="process">
     <div class="wrap">
       <div class="section-head">
@@ -735,37 +735,37 @@
       </div>
     </div>
   </section>
-
+ 
   <section id="faq">
     <div class="wrap">
       <div class="section-head">
         <h2>Questions we get a lot</h2>
       </div>
-
+ 
       <details class="faq-item" open>
         <summary>Is this against Roblox's rules? <span class="plus">+</span></summary>
         <p>Trading in-game items for real money outside Roblox's official systems isn't something Roblox's Terms of Service permit, and it carries a real risk of account or item loss on both sides. We're upfront about that risk rather than hiding it — trade at your own discretion.</p>
       </details>
-
+ 
       <details class="faq-item">
         <summary>Do you ever need my password? <span class="plus">+</span></summary>
         <p>Never. Fruit trades happen through Roblox's built-in trade feature while you're logged into your own account. Gamepass purchases are made by you, in-game, on your own account.</p>
       </details>
-
+ 
       <details class="faq-item">
         <summary>What if I don't receive my item? <span class="plus">+</span></summary>
         <p>Payment is only released after you confirm delivery in our Discord order channel. If something goes wrong before that point, you don't pay.</p>
       </details>
-
+ 
       <details class="faq-item">
         <summary>How do I pay? <span class="plus">+</span></summary>
         <p>Payment methods are shared in Discord once your order is confirmed. We only take payment after you've seen the item land in your inventory.</p>
       </details>
     </div>
   </section>
-
+ 
 </main>
-
+ 
 <footer id="contact">
   <div class="wrap">
     <div class="footer-grid">
@@ -797,19 +797,19 @@
     </div>
   </div>
 </footer>
-
+ 
 <!-- ---------- order modal ---------- -->
 <div class="modal-overlay" id="orderOverlay">
   <div class="modal">
     <button class="modal-close" onclick="closeOrder()" aria-label="Close">&times;</button>
     <h3>Place your order</h3>
     <p class="modal-sub">This goes straight to El_Familia only — nobody else can see it.</p>
-
+ 
     <div class="item-recap">
       <span id="orderItemName">Item</span>
       <b id="orderItemPrice">$0</b>
     </div>
-
+ 
     <form id="orderForm" onsubmit="submitOrder(event)">
       <div class="field">
         <label for="robloxUsername">Your Roblox username</label>
@@ -824,7 +824,7 @@
     </form>
   </div>
 </div>
-
+ 
 <script>
   // ============================================================
   // OWNER NOTIFICATION SETUP
@@ -833,11 +833,11 @@
   // → New Webhook → pick a private channel only you can see → Copy URL.
   // Only you (whoever holds this URL) will ever see the orders sent here.
   // ============================================================
-  const OWNER_WEBHOOK_URL = "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE";
-
+  const OWNER_WEBHOOK_URL = "https://discord.com/api/webhooks/1544452861168193666/YWCG7vKu7LKEmNbIuzYTm1V104qkQMiVH5pIEHUPE1NIIQNS0LJhB6YK0oNRytSpufZO";
+ 
   let currentItem = "";
   let currentPrice = "";
-
+ 
   function openOrder(itemName, price){
     currentItem = itemName;
     currentPrice = price;
@@ -848,36 +848,36 @@
     document.getElementById('orderForm').reset();
     document.getElementById('orderOverlay').classList.add('open');
   }
-
+ 
   function closeOrder(){
     document.getElementById('orderOverlay').classList.remove('open');
   }
-
+ 
   document.getElementById('orderOverlay').addEventListener('click', function(e){
     if (e.target === this) closeOrder();
   });
-
+ 
   async function submitOrder(e){
     e.preventDefault();
     const status = document.getElementById('orderStatus');
     const username = document.getElementById('robloxUsername').value.trim();
     const discord = document.getElementById('discordTag').value.trim();
-
+ 
     if (!username || !discord){
       status.textContent = "Please fill in both fields.";
       status.className = "modal-status err";
       return;
     }
-
-    if (OWNER_WEBHOOK_URL.includes("PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE")){
+ 
+    if (OWNER_WEBHOOK_URL.includes("https://discord.com/api/webhooks/1544452861168193666/YWCG7vKu7LKEmNbIuzYTm1V104qkQMiVH5pIEHUPE1NIIQNS0LJhB6YK0oNRytSpufZO")){
       status.textContent = "Owner setup incomplete: webhook URL not configured yet.";
       status.className = "modal-status err";
       return;
     }
-
+ 
     status.textContent = "Sending...";
     status.className = "modal-status";
-
+ 
     const payload = {
       content:
         "**New order — El_Familia**\n" +
@@ -887,7 +887,7 @@
         "Discord: **" + discord + "**\n" +
         "Time: " + new Date().toLocaleString()
     };
-
+ 
     try {
       await fetch(OWNER_WEBHOOK_URL, {
         method: "POST",
@@ -902,7 +902,7 @@
       status.className = "modal-status err";
     }
   }
-
+ 
   // ============================================================
   // TRADE CALCULATOR
   // Values are USD midpoints benchmarked from current third-party
@@ -963,9 +963,9 @@
     { name:"+1 Fruit Storage (Gamepass)", rarity:"Gamepass", value:3 },
     { name:"Dark Blade (Gamepass)", rarity:"Gamepass", value:14 },
   ];
-
+ 
   const calcState = { A: [], B: [] };
-
+ 
   function calcPopulateSelects(){
     ["A","B"].forEach(side => {
       const sel = document.getElementById('calcSelect' + side);
@@ -985,7 +985,7 @@
       });
     });
   }
-
+ 
   function calcAdd(side){
     const sel = document.getElementById('calcSelect' + side);
     const idx = parseInt(sel.value, 10);
@@ -993,12 +993,12 @@
     calcState[side].push(TRADE_ITEMS[idx]);
     calcRender();
   }
-
+ 
   function calcRemove(side, i){
     calcState[side].splice(i, 1);
     calcRender();
   }
-
+ 
   function calcRender(){
     ["A","B"].forEach(side => {
       const list = document.getElementById('calcList' + side);
@@ -1014,24 +1014,24 @@
       });
       document.getElementById('calcTotal' + side).textContent = total.toFixed(2);
     });
-
+ 
     const totalA = calcState.A.reduce((s,i)=>s+i.value,0);
     const totalB = calcState.B.reduce((s,i)=>s+i.value,0);
     const verdict = document.getElementById('calcVerdict');
     const title = document.getElementById('calcVerdictTitle');
     const body = document.getElementById('calcVerdictBody');
-
+ 
     if (calcState.A.length === 0 && calcState.B.length === 0){
       verdict.className = 'calc-verdict fair';
       title.textContent = 'Add items to both sides';
       body.textContent = 'Values update live as you build each side of the trade.';
       return;
     }
-
+ 
     const diff = totalB - totalA;
     const base = Math.max(totalA, totalB, 0.01);
     const pct = Math.abs(diff) / base * 100;
-
+ 
     if (pct <= 10){
       verdict.className = 'calc-verdict fair';
       title.textContent = 'Fair trade';
@@ -1046,9 +1046,10 @@
       body.textContent = 'You give about $' + Math.abs(diff).toFixed(2) + ' more in value than you receive (' + pct.toFixed(0) + '% gap). Consider asking for an add-on before accepting.';
     }
   }
-
+ 
   calcPopulateSelects();
 </script>
-
+ 
 </body>
 </html>
+ 
